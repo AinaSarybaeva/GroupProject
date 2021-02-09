@@ -129,17 +129,17 @@ public class ProjectOne {
             driver.findElement(By.id("account-job")).click();
             driver.findElement(By.id("logoutLink")).click();
 
-            // 13. Log in as Administrator
+            // 13 Log in as Administrator
 
             driver.findElement(By.xpath("//input[@type='submit']")).click();
 
-            //14. Open Admin -> Announcements -> News
+            //14 Open Admin -> Announcements -> News
 
             driver.findElement(By.id("menu_admin_viewAdminModule")).click();
             driver.findElement(By.id("menu_news_Announcements")).click();
             driver.findElement(By.id("menu_news_viewNewsList")).click();
 
-            // 15. Check the item and delete it
+            // 15 Check the item and delete it
 
             String text = driver.findElement(By.xpath("//*[@id=\"resultTable\"]/tbody/tr[1]/td[2]/a")).getText();
             driver.findElement(By.xpath("(//tr[@class='dataRaw']//td//label)[1]")).click();

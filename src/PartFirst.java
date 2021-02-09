@@ -77,5 +77,7 @@ public class PartFirst {
         driver.findElement(By.cssSelector("body[id='tinymce']")).click();
         driver.findElement(By.cssSelector("body[id='tinymce']")).sendKeys("Promotion was awarded to Anna on 1/7/2020");
 
+
+
     }
 }
