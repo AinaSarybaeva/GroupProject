@@ -7,7 +7,7 @@ import org.testng.Assert;
 import java.util.*;
 import java.util.concurrent.TimeUnit;
 
-public class FirstPart {
+public class ProjectOne {
     public static void main(String[] args) throws InterruptedException {
         System.setProperty("webdriver.chrome.driver", "/Users/apple/Desktop/sdet-java/Selenium/chromedriver");
         WebDriver driver = new ChromeDriver();
