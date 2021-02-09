@@ -18,6 +18,7 @@ public class PartFirst {
         // 1. Login as administrator
         driver.findElement(By.xpath("//input[@id='btnLogin']")).click();
 
+
         // 2. Open Admin -> Announcements -> News
         driver.findElement(By.xpath("//li[@id='menu_admin_viewAdminModule']")).click();
         driver.findElement(By.cssSelector("li[id='menu_news_Announcements']")).click();
